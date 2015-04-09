@@ -2,9 +2,8 @@
 
 ## Description
 This is a rough PHP implementation of a data scraping system from a hotel page
-on TripAdvisor. The system uses regular expressions and substring matching to extract the
+on TripAdvisor. The system uses regular expressions and strings matching to extract the
 following information from a hotel page on TripAdvisor: 
-* TripAdvisor ID
 * Location full name
 * Number of reviews (including totals by type of review)
 * Text of the last 10 Reviews
@@ -44,7 +43,7 @@ Send to the script (via GET or POST) the unique location ID using the variable *
 Example: `TAscraper.php?tID=2079052`
 
 The **example** folder contains a working example featuring a form with real-time auto completion
-of the hotel names.
+of the hotel names (including location IDs).
 
 ## Potential Issues
 This script retrieves in real time the entire HTML source code of a page and extracts from it useful data.
@@ -53,7 +52,7 @@ Since these tags can change at any time, the text matching rules might require f
 is possible to edit those parts of the code which are associated to the comment "Fine tune/edit if needed".
 
 ## Disclaimer 
-This script was developed just an exercise for study purposes and comes with ABSOLUTELY NO WARRANTY.
+This script was developed as a simple exercise for educational purposes and comes with ABSOLUTELY NO WARRANTY.
 The author cannot be held responsible for any improper user use of this code.
 For a real-world use of TripAdvisor data you must request access to the official API and respect 
 the terms and conditions: https://developer-tripadvisor.com/content-api/terms-and-conditions/
