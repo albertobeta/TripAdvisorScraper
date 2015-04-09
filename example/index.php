@@ -90,7 +90,7 @@
 		</form>
 		</div>
 		
-		<p><a href="https://github.com/albertobeta/TripAdvisorScraper">Download the source code on GitHub</a></p>
+		<p>github.com/albertobeta/TripAdvisorScraper</p>
 		
 	</body>
 </html>
