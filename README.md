@@ -39,8 +39,12 @@ The output of this script is a valid JSON file containing the data extracted, e.
 ```
 
 ## Usage
-Send to the script (via GET or POST) the unique location ID using the variable tID 
+Send to the script (via GET or POST) the unique location ID using the variable **tID**
+
 Example: `TAscraper.php?tID=2079052`
+
+The **example** folder contains a working example featuring a form with real-time auto completion
+of the hotel names.
 
 ## Potential Issues
 This script retrieves in real time the entire HTML source code of a page and extracts from it useful data.
